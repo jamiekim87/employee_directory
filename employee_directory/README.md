@@ -1,11 +1,10 @@
 # Employee Directory 
-   https://img.shields.io/badge/license-<LICENSE_NAME>-blue.svg
-
 
    Deployed website: 
+   
    GitHub Repo:  https://github.com/jamiekim87/employee_directory.git
   
-   <img src="./Screenshots/image2.png" alt="image">
+   <img src="/Screenshots/image2.png" alt="image">
   
    ## Table of Contents
 
