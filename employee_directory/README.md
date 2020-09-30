@@ -1,10 +1,11 @@
 # Employee Directory 
 
-   Deployed website: 
+   Deployed website:  https://jamiekim87.github.io/employee/
    
    GitHub Repo:  https://github.com/jamiekim87/employee_directory.git
   
-   <img src="/Screenshots/image2.png" alt="image">
+   ![image2](https://user-images.githubusercontent.com/64169844/94744429-d52f7180-032d-11eb-8fd5-be5013c129d2.png)
+
   
    ## Table of Contents
 
@@ -21,7 +22,7 @@
 
 
    ## Installation 
-   npx creat-react-app <foldername>
+   For installation, install npx creat-react-app <foldername>
 
    ## Usage 
    As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
