@@ -20,6 +20,18 @@ const App = () => {
         Header: 'Email',
         accessor: 'email'
       },
+       {
+        Header: 'Gender',
+        accessor: 'gender'
+      },
+      {
+        Header: 'Age',
+        accessor: 'age'
+      },
+      {
+        Header: 'Picture',
+        accessor: 'picture'
+      }
     ]
   }) 
 
@@ -31,7 +43,10 @@ const App = () => {
       let employees = data.results.map(employee => ({ 
         name: employee.name.first + ' ' + employee.name.last,
         email: employee.email,
-        phone: employee.phone
+        phone: employee.phone,
+        gender: employee.gender,
+        age: employee.dob.age,
+        picture: <img src={employee.picture.large} alt="employees" />
       }))
 
       setEmployeeState({ ...employeeState, employees})
